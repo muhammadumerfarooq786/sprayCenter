@@ -1,0 +1,71 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 3% 5%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+
+
+/* Sections */
+
+.colored-section {
+  background-color: #add8e6;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  font-size: 1.5rem;
+}
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.add-area-button {
+   margin: 2% 0% 2% 0;
+}
+
+#AreaForm {
+  display: none;
+}
